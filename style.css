@@ -4,9 +4,9 @@
 } */
 
 #g{
-    /* display:flex;
+    display:flex;
     align-items:left;
-    justify-content:left; */
+    justify-content:left;
     margin-left: 163px;
     overflow: hidden;
 
@@ -35,7 +35,7 @@
 @keyframes typewriter {
     from{width: 0;}
     /* this down below controls how long it will type for  */
-    to{ width: 14em;}
+    to{width: 14em;}
 }
 
 @keyframes blinktextcursor {
@@ -50,422 +50,194 @@
     overflow: hidden;
 } */
 
-body{
-    background-color: rgb(7, 13, 44);
-    color: rgb(182, 168, 168);
-    font-family: Arial, Helvetica, sans-serif;
-}
-/* #panel1 {
-    border-radius: 25px; */
-    /* background: #73AD21; */
-    /* padding: 20px; 
-    width: 200px;
-    height: 150px;   */
-/* } */
-
-#panel1{
-    border-radius: 25px;
-
-    height:300px;
-    width:300px;
-    float: left;
-    background-color: #0c1e38;
-
-    padding: 10px;
-    border: 1px solid #DDD;
-    width: 300px;
-    height: 300px;
-    margin: 0 auto;
-    margin-top: 298px;
-    /* margin makes stuff move */
-    margin-left: -360px;
-    margin-right: 10px;
-}
-
-#panel2{
-    border-radius: 25px;
-
-    height:300px;
-    width:300px;
-    float: left;
-    background-color: #0c1e38;
-
-    padding: 10px;
-    border: 1px solid #DDD;
-    width: 300px;
-    height: 300px;
-    margin: 0 auto;
-    margin-top: 223px;
-    /* margin makes stuff move */
-    margin-left: 500px;
-    margin-right: 10px;
-}
-
-#panel3{
-    border-radius: 25px;
-
-    height:300px;
-    width:300px;
-    float: left;
-    background-color: #0c1e38;
-
-    padding: 10px;
-    border: 1px solid #DDD;
-    width: 300px;
-    height: 300px;
-    margin: 0 auto;
-    margin-top: -320px;
-    /* margin makes stuff move */
-    margin-left: 860px;
-    margin-right: 10px;
-}
-
-#panel4{
-    border-radius: 25px;
-
-    height:300px;
-    width:300px;
-    float: left;
-    background-color: #0c1e38;
-
-    padding: 10px;
-    border: 1px solid #DDD;
-    width: 300px;
-    height: 300px;
-    margin: 0 auto;
-    margin-top: 25px;
-    /* margin makes stuff move */
-    margin-left: 155px;
-    margin-right: 10px;
-}
-
-#panel5{
-    border-radius: 25px;
-
-    height:300px;
-    width:300px;
-    float: left;
-    background-color: #0c1e38;
-
-    padding: 10px;
-    border: 1px solid #DDD;
-    width: 300px;
-    height: 300px;
-    margin: 0 auto;
-    margin-top: 25px;
-    /* margin makes stuff move */
-    margin-left: 20px;
-    margin-right: 10px;
-}
-
-#panel6{
-    border-radius: 25px;
-
-    height:300px;
-    width:300px;
-    float: left;
-    background-color: #0c1e38;
-
-    padding: 10px;
-    border: 1px solid #DDD;
-    width: 300px;
-    height: 300px;
-    margin: 0 auto;
-    margin-top: 25px;
-    /* margin makes stuff move */
-    margin-left: 20px;
-    margin-right: 10px;
-}
-
-#panel1 { 
-	transition: all .4s ease-in-out; 
-}
-#panel1:hover { 
-    	transform: scale(1.1); 
-    }/*1.5*/
-
-.grow {
-    transition: all .2s ease-in-out; 
-}
-.grow:hover {
-    transform: scale(0.5); 
-}/*1.1*/
-#panel1:hover {
-    transform: scale(1.1);
-}
-#panel1:hover{
-    background:#02283D;
-}
 
 
-#panel2 { 
-	transition: all .4s ease-in-out; 
-}
-#panel2:hover { 
-    	transform: scale(1.1); 
-    }/*1.5*/
-
-.grow {
-    transition: all .2s ease-in-out; 
-}
-.grow:hover {
-    transform: scale(0.5); 
-}/*1.1*/
-#panel2:hover {
-    transform: scale(1.1);
-}
-#panel2:hover{
-    background:#02283D;
-}
-
-
-#panel3 { 
-	transition: all .4s ease-in-out; 
-}
-#panel3:hover { 
-    	transform: scale(1.1); 
-    }/*1.5*/
-
-.grow {
-    transition: all .2s ease-in-out; 
-}
-.grow:hover {
-    transform: scale(0.5); 
-}/*1.1*/
-#panel3:hover {
-    transform: scale(1.1);
-}
-#panel3:hover{
-    background:#02283D;
-}
-
-
-#panel4 { 
-	transition: all .4s ease-in-out; 
-}
-#panel4:hover { 
-    	transform: scale(1.1); 
-    }/*1.5*/
-
-.grow {
-    transition: all .2s ease-in-out; 
-}
-.grow:hover {
-    transform: scale(0.5); 
-}/*1.1*/
-#panel4:hover {
-    transform: scale(1.1);
-}
-#panel4:hover{
-    background:#02283D;
-    /* 02283D */
-    /* 03304A */
-}
-
-
-#panel5 { 
-	transition: all .4s ease-in-out; 
-}
-#panel5:hover { 
-    	transform: scale(1.1); 
-    }/*1.5*/
-
-.grow {
-    transition: all .2s ease-in-out; 
-}
-.grow:hover {
-    transform: scale(0.5); 
-}/*1.1*/
-#panel5:hover {
-    transform: scale(1.1);
-}
-#panel5:hover{
-    background:#02283D;
-    /* 02283D */
-    /* 03304A */
-}
-
-
-#panel6 { 
-	transition: all .4s ease-in-out; 
-}
-#panel6:hover { 
-    	transform: scale(1.1); 
-    }/*1.5*/
-
-.grow {
-    transition: all .2s ease-in-out; 
-}
-.grow:hover {
-    transform: scale(0.5); 
-}/*1.1*/
-#panel6:hover {
-    transform: scale(1.1);
-}
-#panel6:hover{
-    background:#02283D;
-    /* 02283D */
-    /* 03304A */
-}
-
-/* 1.3 */
-
-/* #i{
-
-    float: left;
-
-    padding: 10px;
-
-    margin: 0 auto;
-    margin-top: 80px; */
-    /* margin makes stuff move */
-    /* margin-left: 80px;
-    margin-right: 90px;
-} */
-
-
-#a{
-    /* height:300px;
-    width:300px;
-    float: left; */
-    background-color: rgb(7, 13, 44);
-
-    padding: 10px;
-    width: 430px;
-    height: 300px;
-    margin: 0 auto;
-    margin-top: 24px;
-    /* margin makes stuff move */
-    margin-left: 150px;
-    margin-right: 10px;
-
-}
-
-
-#b{
-/* 
-    height:300px;
-    width:300px; */
-    float: left;
-    background-color: rgb(7, 13, 44);
-
-    padding: 10px;
-    width: 200px;
-    height: 100px;
-    margin: 0 auto;
-    margin-top: -45px;
-    /* margin makes stuff move */
-    margin-left: 280px;
-    margin-right: 10px;
-
-}
-
-
-/* #c{
-    height:300px;
-    width:580px;
-    float: left;
-    background-color: rgb(7, 13, 44);
-    margin-top: 60px;
-    margin-left: -350px;
-
-} */
-
-#d{
-    /* 
-    height:300px;
-    width:300px; */
-    float: left;
-    background-color:rgb(7, 13, 44);
+*{
+    box-sizing: border-box;
+        /* padding: 0; */
+        margin: 0;
+        /* margin-right: 70px; */
+    }
     
-    padding: 10px;
-    width: 260px;
-    height: 50px;
-    margin: 0 auto;
-    margin-top: 165px;
-    /* margin makes stuff move */
-    margin-left: -360px;
-    margin-right: 10px;
+    body{
+        background-color: rgb(7, 13, 44);
+        color: rgb(182, 168, 168);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .tech{
+            float: left;
+            background-color: rgb(7, 13, 44);
+            height: 110px;
+            padding: 10px;
+            margin-right: -150px;
+            margin-left: 180px;
+            margin-top: -180px;
+    }
     
-}
 
-#e{
-    float: left;
+    
+    .container{
+        display: flex;
+        justify-content: left;
+        margin-left: 160px;
+        margin-top: 200px;
+        flex-wrap: wrap;
+    }
 
-    padding: 10px;
+    .des{
+        padding: 10px;
+        width: 500px;
+        height: 300px;
+        margin: 0 auto;
+        margin-top: -140px;
+        /* background-color: rgb(74, 77, 92); */
 
-    margin: 0 auto;
-    margin-top: -10px;
+        /* margin makes stuff move */
+        margin-left: -10px;
+        margin-right: 10px;
 
-    margin-left: 240px;
-    margin-right: 10px;
-}
+    }
 
-#j{
-    float: left;
+        
 
-    padding: 10px;
-
-    margin: 0 auto;
-    margin-top: -10px;
-
-    margin-left: 240px;
-    margin-right: 10px;
-}
-
-#k{
-    float: left;
-
-    padding: 10px;
-
-    margin: 0 auto;
-    margin-top: 10px;
-
-    margin-left: 240px;
-    margin-right: 10px;
-}
-
-#l{
-    float: left;
-
-    padding: 10px;
-
-    margin: 0 auto;
-    margin-top: 10px;
-
-    margin-left: 240px;
-    margin-right: 10px;
-}
-
-#m{
-    float: left;
-
-    padding: 10px;
-
-    margin: 0 auto;
-    margin-top: -12px;
-
-    margin-left: 240px;
-    margin-right: 10px;
-}
-
-#n{
-    float: left;
-
-    padding: 10px;
-
-    margin: 0 auto;
-    margin-top: -10px;
-
-    margin-left: 240px;
-    margin-right: 10px;
-}
-
-#carouselExampleDark{
-    margin-bottom: 500px;
-    height: 100px;
-    width: 60px;
-}
+    #sub_heading{
+        /* 
+        height:300px;
+        width:300px; */
+        float: left;
+        background-color:rgb(7, 13, 44);
+        
+        padding: 10px;
+        width: 260px;
+        height: 50px;
+        margin: 0 auto;
+        margin-top: 50px;
+        /* margin makes stuff move */
+        margin-left: 135px;
+        margin-right: 10px;
+        
+    }
+    
+    .container{
+        display: flex;
+        justify-content: left;
+        margin-left: 160px;
+        margin-top: 160px;
+        flex-wrap: wrap;
+    }
+    
+    .cards{
+        background-color: rgb(12, 30, 55);
+        width: 300px;
+        height: 300px;
+        margin: 10px;
+        border-radius: 25px;
+        padding: 10px;
+        border: 1px solid #DDD;
+    }
+    
+    /* This below puts spcae in between in the title and description */
+    .cardspace{
+        border-radius: 25px 25px 0px 0px;
+    
+        /* background-color: #0c1e38; */
+        height: 10px;
+        margin-bottom: 15px;
+    }
+    
+    .cards p{
+        padding: 10px;
+    }
+    
+    
+    .cards { 
+        transition: all .4s ease-in-out; 
+    }
+    .cards:hover { 
+            transform: scale(1.1); 
+        }/*1.5*/
+    
+    .grow {
+        transition: all .2s ease-in-out; 
+    }
+    .grow:hover {
+        transform: scale(0.5); 
+    }/*1.1*/
+    .cards:hover {
+        transform: scale(1.1);
+    }
+    .cards:hover{
+        background:#02283D;
+        /* 02283D */
+        /* 03304A */
+    }
+    
+    
+    #a{
+    
+        float: left;
+        padding: 10px;
+        margin: 0 auto;
+        margin-top: -50px;
+        margin-left: 225px;
+        margin-right: 10px;
+        
+    }
+    
+    #b{
+    
+        float: left;
+        padding: 10px;
+        margin: 0 auto;
+        margin-top: -15px;
+        margin-left: 225px;
+        margin-right: 10px;
+        
+    }
+    
+    #c{
+    
+        float: left;
+        padding: 10px;
+        margin: 0 auto;
+        margin-top: 5px;
+        margin-left: 225px;
+        margin-right: 10px;
+        
+    }
+    
+    #d{
+    
+        float: left;
+        padding: 10px;
+        margin: 0 auto;
+        margin-top: 5px;
+        margin-left: 225px;
+        margin-right: 10px;
+        
+    }
+    
+    #e{
+    
+        float: left;
+        padding: 10px;
+        margin: 0 auto;
+        margin-top: -50px;
+        margin-left: 225px;
+        margin-right: 10px;
+        
+    }
+    
+    #f{
+    
+        float: left;
+        padding: 10px;
+        margin: 0 auto;
+        margin-top: 5px;
+        margin-left: 225px;
+        margin-right: 10px;
+    }
 
 #footer{
     background-color:rgb(7, 13, 44);
