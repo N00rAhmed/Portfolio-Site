@@ -179,7 +179,7 @@
         float: left;
         padding: 10px;
         margin: 0 auto;
-        margin-top: -50px;
+        margin-top: 0px;
         margin-left: 225px;
         margin-right: 10px;
         
@@ -190,7 +190,7 @@
         float: left;
         padding: 10px;
         margin: 0 auto;
-        margin-top: -15px;
+        margin-top: 0px;
         margin-left: 225px;
         margin-right: 10px;
         
@@ -201,7 +201,7 @@
         float: left;
         padding: 10px;
         margin: 0 auto;
-        margin-top: 5px;
+        margin-top: 20px;
         margin-left: 225px;
         margin-right: 10px;
         
@@ -212,7 +212,7 @@
         float: left;
         padding: 10px;
         margin: 0 auto;
-        margin-top: 5px;
+        margin-top: 20px;
         margin-left: 225px;
         margin-right: 10px;
         
@@ -223,7 +223,7 @@
         float: left;
         padding: 10px;
         margin: 0 auto;
-        margin-top: -50px;
+        margin-top: 0px;
         margin-left: 225px;
         margin-right: 10px;
         
@@ -234,7 +234,7 @@
         float: left;
         padding: 10px;
         margin: 0 auto;
-        margin-top: 5px;
+        margin-top: 20px;
         margin-left: 225px;
         margin-right: 10px;
     }
